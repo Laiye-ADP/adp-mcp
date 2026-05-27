@@ -1,9 +1,9 @@
 
 ## About ADP MCP Server
 
-ADP MCP Server is the Model Context Protocol endpoint for Laiye's **Agentic Document Processing (ADP)** platform. It lets any MCP-compatible AI client — Claude Desktop, Cursor, Copilot Chat, Tongyi Lingma, Coze, and others — invoke ADP's document parsing and extraction capabilities without writing a single line of code.
+ADP MCP Server is the Model Context Protocol endpoint for Laiye's **Agentic Document Processing (ADP)** platform. It lets any MCP-compatible AI client — Claude Desktop, Cursor, Copilot Chat, Tongyi Lingma, Coze, and others — invoke ADP's document parsing and extraction capabilities without writing a single line of code.Unlike the CLI, the MCP Server runs over **Streamable HTTP** transport. A single connection is all you need to discover available tools, invoke processing, and query results — entirely within your chat window.
 
-Unlike the CLI, the MCP Server runs over **Streamable HTTP** transport. A single connection is all you need to discover available tools, invoke processing, and query results — entirely within your chat window.
+ADP integrates Vision-Language Models (VLM), Large Language Models (LLM) and autonomous agent decision-making technologies. It reshapes traditional document processing by transforming conventional rule-based field extraction into goal-driven end-to-end intelligent automation. Focused on intelligent processing of business documents, ADP automatically classifies overseas invoices, domestic vouchers, procurement contracts, logistics documents, financial statements and trading contracts, and accurately extracts key fields. It also supports table parsing, content verification and multilingual recognition. Requiring no template setup, data labeling or ongoing rule maintenance, it efficiently handles high-volume document processing tasks.
 
 ---
 
