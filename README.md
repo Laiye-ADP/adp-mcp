@@ -35,7 +35,9 @@ Most MCP clients (Cursor, Tongyi Lingma, Coze, etc.) let you add MCP servers dir
 
 #### Option B: Edit Config File
 
-For Claude Desktop, add the following to `claude_desktop_config.json`:
+For Claude Desktop, add the following to `claude_desktop_config.json`. Both connection methods are supported:
+
+**Remote connection (Streamable HTTP)**
 
 ```json
 {
@@ -43,6 +45,22 @@ For Claude Desktop, add the following to `claude_desktop_config.json`:
     "adp": {
       "url": "https://adp.laiye.com/mcp?key=<YOUR-ADP-API-Key>",
       "transport": "streamable-http"
+    }
+  }
+}
+```
+
+**Local command (npx, stdio)**
+
+```json
+{
+  "mcpServers": {
+    "adp": {
+      "command": "npx",
+      "args": ["-y", "@laiye-adp/mcp"],
+      "env": {
+        "ADP_API_KEY": "<YOUR-ADP-API-Key>"
+      }
     }
   }
 }

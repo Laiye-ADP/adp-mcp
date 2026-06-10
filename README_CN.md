@@ -36,7 +36,9 @@ ADP 产品深度融合视觉语言模型（VLM）、大语言模型（LLM）与�
 
 #### 方式二：编辑配置文件
 
-以 Claude Desktop 为例，在 `claude_desktop_config.json` 中添加：
+以 Claude Desktop 为例，在 `claude_desktop_config.json` 中添加。我们同时支持两种接入方式：
+
+**远程连接（Streamable HTTP）**
 
 ```json
 {
@@ -44,6 +46,22 @@ ADP 产品深度融合视觉语言模型（VLM）、大语言模型（LLM）与�
     "adp": {
       "url": "https://adp.laiye.com/mcp?key=<YOUR-ADP-API-Key>",
       "transport": "streamable-http"
+    }
+  }
+}
+```
+
+**本地命令（npx，stdio）**
+
+```json
+{
+  "mcpServers": {
+    "adp": {
+      "command": "npx",
+      "args": ["-y", "@laiye-adp/mcp"],
+      "env": {
+        "ADP_API_KEY": "<YOUR-ADP-API-Key>"
+      }
     }
   }
 }
