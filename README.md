@@ -14,9 +14,9 @@ ADP integrates Vision-Language Models (VLM), Large Language Models (LLM) and aut
 Sign up at [https://adp-global.laiye.com/](https://adp-global.laiye.com/?utm_source=github) and retrieve your API Key from **My MCP** in personal settings.
 
 <div align="center">
-  <img src=".img/adp-home.PNG" width="30%" />
-  <img src=".img/adp-mcp-url.PNG" width="30%" />
-  <img src=".img/adp-mcp-json.PNG" width="30%" />
+  <img src=".img/adp-home-en.jpg" width="30%" />
+  <img src=".img/adp-mcp-url-en.jpg" width="30%" />
+  <img src=".img/adp-mcp-json-en.jpg" width="30%" />
 </div>
 
 ### 2. Configure Your MCP Client
