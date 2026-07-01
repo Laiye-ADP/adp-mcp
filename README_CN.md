@@ -1,3 +1,7 @@
+# ADP MCP Server
+
+让 Agent 直接处理业务文档，从票据、订单、合同、物流单据、金融报表等文件中提取结构化数据，并在对话中完成上传、解析、抽取和结果查询。
+
 ## 关于 ADP MCP Server
 
 来也科技智能体文档处理产品 (Agentic Document Processing，简称 ADP) 的 Model Context Protocol 服务端。
