@@ -1,6 +1,8 @@
-# ADP MCP Server
+# ADP MCP
 
 Enable AI Agents to natively process business documents. It extracts structured data from invoices, purchase orders, contracts, logistics documents, financial statements and other files, supporting file upload, parsing, data extraction and result query directly within chat sessions.
+
+---
 
 ## About ADP MCP Server
 
