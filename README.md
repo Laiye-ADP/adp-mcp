@@ -1,9 +1,10 @@
-
 ## About ADP MCP Server
 
-ADP MCP Server is the Model Context Protocol endpoint for Laiye's **Agentic Document Processing (ADP)** platform. It lets any MCP-compatible AI client — Claude Desktop, Cursor, Copilot Chat, Tongyi Lingma, Coze, and others — invoke ADP's document parsing and extraction capabilities without writing a single line of code.Unlike the CLI, the MCP Server runs over **Streamable HTTP** transport. A single connection is all you need to discover available tools, invoke processing, and query results — entirely within your chat window.
+Laiye Agentic Document Processing (ADP) MCP Server
 
-ADP integrates Vision-Language Models (VLM), Large Language Models (LLM) and autonomous agent decision-making technologies. It reshapes traditional document processing by transforming conventional rule-based field extraction into goal-driven end-to-end intelligent automation. Focused on intelligent processing of business documents, ADP automatically classifies overseas invoices, domestic vouchers, procurement contracts, logistics documents, financial statements and trading contracts, and accurately extracts key fields. It also supports table parsing, content verification and multilingual recognition. Requiring no template setup, data labeling or ongoing rule maintenance, it efficiently handles high-volume document processing tasks.
+The ADP MCP Server converts enterprise documents into callable data for AI Agents. Users can directly upload invoices, purchase orders, contracts, bills, images, spreadsheets and other files within chat conversations. ADP automatically executes content recognition, field extraction, and structured data output, cutting manual data entry, copy-pasting operations, and cross-system processing overheads.
+
+Optimized for real-world business scenarios featuring complex layouts, tabular line items, scanned copies, multilingual receipts and lengthy documents, the ADP MCP Server delivers higher accuracy and more consistent structured outputs. It underpins downstream workflows including document review, account reconciliation, data entry, file export, and end-to-end business process automation.
 
 ---
 

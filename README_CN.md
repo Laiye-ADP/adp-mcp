@@ -1,16 +1,16 @@
-
 ## 关于 ADP MCP Server
 
-ADP MCP Server 是来也科技**智能体文档处理产品 (Agentic Document Processing，简称 ADP)** 的 Model Context Protocol 服务端，让任何支持 MCP 协议的 AI 客户端（Claude Desktop、Cursor、Copilot Chat、通义灵码、Coze 等）无需编写代码即可调用 ADP 的文档解析与抽取能力。与 CLI 工具不同，MCP Server 以 **Streamable HTTP** 传输运行，一条连接即可发现所有可用工具、调用处理、查询结果——完全在对话窗口内完成。
+来也科技智能体文档处理产品 (Agentic Document Processing，简称 ADP) 的 Model Context Protocol 服务端。
 
-ADP 产品深度融合视觉语言模型（VLM）、大语言模型（LLM）与智能体自主决策技术，彻底颠覆传统文档处理模式，将行业沿用多年的规则驱动的机械字段抽取，全面升级为目标驱动的全流程智能自动化。产品专注于各类业务单据智能化处理，可对海外发票、国内票据、采购合同、物流单据、金融报表、交易合同等文件自动分类并精准抽取关键字段，同时支持表格解析、内容核验与多语种识别，无需人工搭建模板、标注数据和维护规则，高效完成大批量文档处理工作。
+ADP MCP Server 把企业文档变成 Agent 可调用的数据。用户可以直接在对话中上传发票、订单、合同、票据、图片或表格文件，由 ADP 自动完成内容识别、字段抽取和结构化输出，减少人工录入、复制粘贴和跨系统处理成本。
 
+ADP MCP Server 更适合处理真实业务场景中的复杂版面、表格明细、扫描件、多语言票据和长文档，并提供更高准确率、更稳定的结构化结果，支撑后续审核、对账、录入、导出和业务流程自动化。
 
 ---
 
 ## 快速接入
 
-### 1. 获取 API Key
+### 1. 获取 API Keys
 
 访问 [https://adp.laiye.com/](https://adp.laiye.com/?utm_source=github) 注册 ADP 账号，在个人设置「我的MCP」中获取 API Key。
 
